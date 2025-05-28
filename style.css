@@ -11,18 +11,20 @@ body {
 }
 
 #navBarSection {
+  height: 113px;
   background-color: #1a0b2e;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .navBar {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .main__logo {
-  width: 90px;
+  width: 150px;
 }
 
 ul li {
@@ -34,11 +36,16 @@ ul li {
   gap: 200px;
 }
 
+.nav__lists > li {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 #heroSection {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 80vh;
+  height: 30vh;
   gap: 4rem;
   padding: 2rem;
   padding-left: 25rem;
@@ -112,4 +119,23 @@ ul li {
 .hero__text > * {
   font-weight: 300;
   line-height: 40px;
+}
+
+.hero__intro {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rem;
+  gap: 10px;
+  color: #ffffff;
+  font-family: "Playpen Sans Deva", cursive;
+}
+
+.hero__intro > * {
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.facebook__link {
+  text-decoration: none;
+  color: #1877f2;
 }
